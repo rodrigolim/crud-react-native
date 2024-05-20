@@ -71,6 +71,7 @@ local.properties
 *.iml
 /packages/react-native/android/*
 !/packages/react-native/android/README.md
+/Android/*
 
 # Node
 node_modules
@@ -124,6 +125,7 @@ vendor/
 /packages/helloworld/ios/Podfile.lock
 /packages/rn-tester/Gemfile.lock
 /packages/**/RCTLegacyInteropComponents.mm
+/ios/*
 
 # Ignore RNTester specific Pods, but keep the __offline_mirrors__ here.
 /packages/rn-tester/Pods/*
@@ -163,4 +165,3 @@ vendor/
 
 # CircleCI
 .circleci/generated_config.yml
-node_modules
